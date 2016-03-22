@@ -25,7 +25,6 @@ public class CloudBurst {
 	// Make sure this number is longer than the longest read
 	public static final int CHUNK_OVERLAP = 1024;
 	
-	
 	//------------------------- alignall --------------------------
 	// Setup and run the hadoop job for running the alignment
 
@@ -183,7 +182,7 @@ public class CloudBurst {
 		
 		boolean filteralignments = false;
 		
-		int local = 1; // set to zero to use command line arguments
+		int local = 0; // set to zero to use command line arguments
 		
 		if (local == 1)
 		{
